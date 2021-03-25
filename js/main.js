@@ -220,12 +220,12 @@
 	var sliderMain = function() {
 		
 	  	$('#fh5co-hero .flexslider').flexslider({
-			animation: "slide",
+			animation: "swipe",
 
-			easing: "swing",
-			direction: "vertical",
+			easing: "fadeout",
+			direction: "horizondal",
 
-			slideshowSpeed: 5000,
+			slideshowSpeed: 8000,
 			directionNav: true,
 			start: function(){
 				setTimeout(function(){
@@ -242,10 +242,10 @@
 
 	  	});
 
-	   $('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
-	    $(window).resize(function(){
-	   	$('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
-	    });
+	  	// $('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	// $(window).resize(function(){
+	  	// 	$('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	// });
 
 	};
 

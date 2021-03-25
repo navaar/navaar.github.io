@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav #fh5co-logo a {
   color: #000;
   position: relative;
-  padding-left: 25px;
+  padding-left: 15px;
 }
 .fh5co-nav #fh5co-logo a span {
   color: #000;
@@ -170,8 +170,6 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-nav .menu-1 {
     display: none;
   }
-  .fh5co-nav #fh5co-logo {
-    font-size: 18px;
 }
 .fh5co-nav ul {
   padding: 0;
@@ -283,7 +281,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
 }
 .fh5co-nav .menu-1 li a:hover{
-  background-color: rgba(0, 0, 0, 0.055);
+  background-color: rgba(0, 0, 0, 0.062);
   color: #2D6CDF;
 }
 .fh5co-nav .menu-1:active {
@@ -325,7 +323,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   content: '';
-  background: rgba(14, 13, 13, 0.26);
+  background: rgba(14, 13, 13, 0.397);
   z-index: 1;
 }
 #fh5co-hero .flexslider .flex-control-nav {
