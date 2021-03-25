@@ -1134,9 +1134,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-footer .fh5co-widget {
-    text-align: center;
+  .social-icon li a {
+    font-size: 20px;
   }
+  #fh5co-footer .copyright .block p{
+    font-size: x-small;
+    }
 }
 #fh5co-footer .fh5co-widget h3 {
   text-align: center;
@@ -1151,6 +1154,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-footer .copyright .block {
   display: block;
   margin-bottom: 1rem;
+}
+#fh5co-footer .copyright .block p{
+font-size: smaller;
 }
 #fh5co-footer .copyright .block a {
   color: rgb(255, 106, 7);
