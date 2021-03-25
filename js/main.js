@@ -242,10 +242,10 @@
 
 	  	});
 
-	  	// $('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
-	  	// $(window).resize(function(){
-	  	// 	$('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
-	  	// });
+	  	 $('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	 $(window).resize(function(){
+	  	 $('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	 });
 
 	};
 
@@ -270,7 +270,7 @@
 			margin: 0,
 			nav: false,
 			dots: true,
-			smartSpeed: 800,
+			smartSpeed: 900,
 			autoHeight: true
 		});
 
