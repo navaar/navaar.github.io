@@ -198,41 +198,7 @@
     }
   };
 
-  var sliderMain = function () {
-    $("#fh5co-hero .flexslider").flexslider({
-      animation: "slide",
 
-      easing: "swing",
-      direction: "vertical",
-
-      slideshowSpeed: 7000,
-      directionNav: true,
-      start: function () {
-        setTimeout(function () {
-          $(".slider-text").removeClass("animated fadeInUp");
-          $(".flex-active-slide")
-            .find(".slider-text")
-            .addClass("animated fadeInUp");
-        }, 900);
-      },
-      before: function () {
-        setTimeout(function () {
-          $(".slider-text").removeClass("animated fadeInUp");
-          $(".flex-active-slide")
-            .find(".slider-text")
-            .addClass("animated fadeInUp");
-        }, 900);
-      },
-    });
-
-    $("#fh5co-hero .flexslider .slides > li").css("height", $(window).height());
-    $(window).resize(function () {
-      $("#fh5co-hero .flexslider .slides > li").css(
-        "height",
-        $(window).height()
-      );
-    });
-  };
 
   var parallax = function () {
     if (!isMobile.any()) {
