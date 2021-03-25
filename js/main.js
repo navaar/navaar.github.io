@@ -225,19 +225,19 @@
 			easing: "swing",
 			direction: "vertical",
 
-			slideshowSpeed: 5000,
+			slideshowSpeed: 7000,
 			directionNav: true,
 			start: function(){
 				setTimeout(function(){
 					$('.slider-text').removeClass('animated fadeInUp');
 					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-				}, 500);
+				}, 900);
 			},
 			before: function(){
 				setTimeout(function(){
 					$('.slider-text').removeClass('animated fadeInUp');
 					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-				}, 500);
+				}, 900);
 			}
 
 	  	});
