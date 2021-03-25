@@ -220,12 +220,12 @@
 	var sliderMain = function() {
 		
 	  	$('#fh5co-hero .flexslider').flexslider({
-			animation: "swipe",
+			animation: "slide",
 
-			easing: "fadeout",
-			direction: "horizondal",
+			easing: "swing",
+			direction: "vertical",
 
-			slideshowSpeed: 8000,
+			slideshowSpeed: 5000,
 			directionNav: true,
 			start: function(){
 				setTimeout(function(){
